@@ -180,6 +180,9 @@
   .m-auto {
     margin: auto;
   }
+  .my-20 {
+    margin-block: calc(var(--spacing) * 20);
+  }
   .my-40 {
     margin-block: calc(var(--spacing) * 40);
   }
