@@ -180,6 +180,9 @@
   .m-auto {
     margin: auto;
   }
+  .my-5 {
+    margin-block: calc(var(--spacing) * 5);
+  }
   .my-20 {
     margin-block: calc(var(--spacing) * 20);
   }
@@ -195,8 +198,17 @@
   .table {
     display: table;
   }
+  .w-50 {
+    width: calc(var(--spacing) * 50);
+  }
+  .w-70 {
+    width: calc(var(--spacing) * 70);
+  }
   .w-100 {
     width: calc(var(--spacing) * 100);
+  }
+  .w-200 {
+    width: calc(var(--spacing) * 200);
   }
   .w-\[1200px\] {
     width: 1200px;
